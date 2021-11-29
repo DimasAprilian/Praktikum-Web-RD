@@ -9,6 +9,109 @@
 
     <!-- Title -->
     <title>Tugas Pemrograman Web - Dimas Aprilian - 118140032</title>
+
+    <style>
+      body {
+        font-size: 20px;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100px;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 100%;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+      }
+
+      li {
+        float: left;
+        margin: 0px 7px 0px 7px;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
+      .active {
+        background-color: #ddcf0d;
+      }
+
+      .col-8 {
+        float: left;
+        width: 70%;
+        /* margin-right: 30px; */
+        border: 1px solid #000;
+        height: 800px;
+        margin: 0 6px 0 3px;
+      }
+      .col-4 {
+        float: left;
+        width: 29%;
+        /* padding: 10px; */
+        height: 800px;
+        border: 1px solid #000;
+      }
+
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        text-align: center;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="assets/images/logo.png"
+          height="100px"
+          width="100px"
+          alt="logo-itera"
+        />
+      </div>
+      <h1>Institut Teknologi Sumatera</h1>
+    </header>
+    <navigation>
+      <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+      </ul>
+    </navigation>
+    <content>
+      <div class="col-8"></div>
+      <div class="col-4"></div>
+    </content>
+    <footer class="footer">
+      <p>
+        Copyright &copy; 2021 -
+        <i>Dimas Aprilian Sulaiman Putra- 118140032</i>
+      </p>
+    </footer>
+  </body>
 </html>
