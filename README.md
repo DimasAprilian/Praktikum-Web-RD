@@ -21,3 +21,5 @@ jangan lupa tambahkan hasil screenshoot web di dalam file
 Nama : Dimas Aprilian Sulaiman Putra
 <br>
 NIM : 118140032
+
+Minggu 2
