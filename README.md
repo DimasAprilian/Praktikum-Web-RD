@@ -22,4 +22,4 @@ Nama : Dimas Aprilian Sulaiman Putra
 <br>
 NIM : 118140032
 
-Minggu 2
+Minggu 6
